@@ -1,0 +1,31 @@
+#card-launch {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.patch {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description:hover {
+  overflow: visible;
+  white-space: wrap;
+}
